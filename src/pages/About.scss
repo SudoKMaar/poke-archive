@@ -1,0 +1,39 @@
+.profile {
+  margin: 2px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-break: break-word;
+  gap: 1rem;
+  color: white;
+
+  &-text {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  &-image {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  &-links {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+
+    a {
+      color: var(--accent-color);
+
+      svg {
+        font-size: 3rem;
+      }
+    }
+  }
+}
